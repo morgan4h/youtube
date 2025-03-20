@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.container {
+  background-color: rgb(17, 17, 17);
+  color: rgb(245, 237, 237);
+  height: 100vb;
+}
+
+.con {
+  display: flex;
+}
+
+nav {
+  height: fit-content;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+
+.side-bar {
+  margin-top: 2%;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.side-bar * {
+  cursor: pointer;
+  height: 90px;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.videos {
+  width: 190%;
+}
+
+/* styling the nav bar element */
+
+nav img {
+  height: 20px;
+}
+
+nav .login {
+  margin-right: 30px;
+}
+
+nav h1 {
+  font-family: "Aref Ruqaa", serif;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+nav button {
+  height: 41px;
+  width: 130px;
+  border-radius: 22px;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+nav input {
+  width: 16cm;
+  outline: none;
+  height: 41px;
+  border-radius: 20px;
+  padding-left: 14px;
+  /* font-weight: bold; */
+  font-size: 17px;
+  background-color: inherit;
+  outline: none;
+  color: white;
+  border: rgb(46, 46, 46) solid 1px;
+  /* overflow: hidden; */
+}
+
+nav .serach .fa {
+  position: relative;
+  top: 2px;
+  margin-left: 2px;
+  background-color: #252222;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.videos .non-video {
+  background-color: #2e2c2c;
+  width: fit-content;
+  margin-top: 5%;
+  padding: 25px;
+  border-radius: 13px;
+}
+
+.videos h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.videos p {
+  text-align: center;
+}
+
+.fa-user-circle-o:before {
+  margin: 6px;
+}
+
+.fa-home:before {
+  margin-right: 6px;
+}
+
+.fa-heart:before {
+  margin-right: 6px;
+}
+
+.fa-user-o:before {
+  margin-right: 6px;
+}
