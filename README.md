@@ -1,1 +1,1 @@
-### see how i make this project from here (https://youtube.com/@morgan4h/playlist "checkout")
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
