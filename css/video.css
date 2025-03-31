@@ -2,7 +2,6 @@ body {
     background-color: rgb(17, 17, 17);
     color: white;
 }
-
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -71,7 +70,7 @@ body {
     width: 60px;
     border-radius: 6px;
     height: 60px;
-    transform: translate(12%, 12%);
+    transform: translate(12%,12%);
 }
 
 .single-comement .username {

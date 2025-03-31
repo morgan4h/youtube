@@ -4,8 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
-
+/* style the prtotyep of the page */
 .container {
   background-color: rgb(17, 17, 17);
   color: rgb(245, 237, 237);
@@ -26,6 +25,7 @@ nav {
 
 .side-bar {
   margin-top: 2%;
+  /* height: 100vb; */
   width: 23%;
   display: flex;
   flex-direction: column;
@@ -40,19 +40,24 @@ nav {
 }
 
 .videos {
+  /* height: 100vb; */
   width: 190%;
 }
 
 /* styling the nav bar element */
 
-nav img {
-  height: 20px;
+nav .serach {
 }
 
 nav .login {
-  margin-right: 30px;
 }
 
+nav img {
+  height: 20px;
+}
+nav .login {
+  margin-right: 30px;
+}
 nav h1 {
   font-family: "Aref Ruqaa", serif;
   padding-left: 20px;
@@ -68,7 +73,6 @@ nav button {
   cursor: pointer;
   text-transform: capitalize;
 }
-
 nav input {
   width: 16cm;
   outline: none;
@@ -85,12 +89,12 @@ nav input {
 }
 
 nav .serach .fa {
-  position: relative;
-  top: 2px;
-  margin-left: 2px;
-  background-color: #252222;
-  padding: 15px;
-  border-radius: 5px;
+    position: relative;
+    top: 2px;
+    margin-left: 2px;
+    background-color: #252222;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .videos {
